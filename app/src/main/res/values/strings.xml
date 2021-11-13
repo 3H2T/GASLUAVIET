@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GAS247</string>
+    <string name="nav_sanpham">Sản phẩm</string>
+    <string name="nav_binh">Bình gas</string>
+    <string name="nav_bep">Bếp gas</string>
+    <string name="nav_phukien">Phụ kiện</string>
+    <string name="nav_trangchu">Trang chủ</string>
+    <string name="nav_donhang">Đơn hàng</string>
+    <string name="nav_khuyenmai">Khuyến mãi</string>
+    <string name="nav_thongbao">Thông báo</string>
+    <string name="nav_taikhoan">Tài khoản</string>
 </resources>

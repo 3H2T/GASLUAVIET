@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/nav_sanpham">
+        <menu>
+            <item
+                android:id="@+id/nav_binh"
+                android:title="@string/nav_binh"/>
+            <item
+                android:id="@+id/nav_bep"
+                android:title="@string/nav_bep" />
+            <item
+                android:id="@+id/nav_phukien"
+                android:title="@string/nav_phukien" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_trangchu"
+            android:icon="@drawable/ic_home" />
+        <item
+            android:id="@+id/nav_donhang"
+            android:title="@string/nav_donhang"
+            android:icon="@drawable/single_menu" />
+        <item
+            android:id="@+id/nav_khuyenmai"
+            android:title="@string/nav_khuyenmai"
+            android:icon="@drawable/promotion" />
+        <item
+            android:id="@+id/nav_thongbao"
+            android:title="@string/nav_thongbao"
+            android:icon="@drawable/ic_notifications" />
+        <item
+            android:id="@+id/nav_taikhoan"
+            android:title="@string/nav_taikhoan"
+            android:icon="@drawable/ic_account" />
+
+    </group>
+</menu>
