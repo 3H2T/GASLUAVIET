@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">GAS247</string>
+    <string name="thongtin">
+        Loại Gas: S Gas Hồng 12Kg.<br />
+        Nhà sản xuất : Công ty Cổ Phần dầu khí miền Nam.<br />
+        Chất liệu bình : Vỏ thép được sản xuất theo tiêu chuẩn quốc tế.<br />
+        Sản phẩm có mua Bảo hiểm cháy nổ theo quy định Nhà nước.<br />
+        Giao Gas tíc tắc trong vòng 15 phút.<br />
+        Đặt Gas nhanh chóng chỉ với 1 chạm bằng App Gas24h.<br />
+    </string>
+    <string name="soluong">
+        Số lượng : 1
+        Giờ Tạo :12h30
+        Ngày tạo:12/10/2021
+    </string>
+    <string name="ThongBaoMXN">
+        Mã xác nhận đã được gửi về số điện thoại của bạn
+    </string>
+    <string name="wellcome">
+        porewed by gasluaviet.com 2021-2022
+    </string>
+    <string name="CapNhatMK">
+        Bạn đã cập nhật mật khẩu thành công
+    </string>
 </resources>
