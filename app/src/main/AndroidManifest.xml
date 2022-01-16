@@ -11,6 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GasLuaViet">
+        <activity android:name=".Activity.QuenMK3" />
+        <activity android:name=".Activity.QuenMK2" />
+        <activity android:name=".Activity.QuenMK1" />
+        <activity android:name=".Activity.DonHangCXN" />
+        <activity android:name=".Activity.DNThanhCong" />
+        <activity android:name=".Activity.DangKy" />
+        <activity android:name=".Activity.QuenMK4" />
+        <activity android:name=".Activity.ChiTietDHActivity" />
+        <activity android:name=".Activity.DonHangDHTActivity" />
+        <activity android:name=".Activity.DonHangDTHActivity" />
+        <activity android:name=".Activity.TrangchuActivity"/>
         <activity
             android:name=".Activity.DanhmucPkActivity"
             android:exported="false" />
@@ -24,13 +35,10 @@
             android:name=".Activity.ChitietSpActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".Activity.GioithieuActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.TrangchuActivity"
+            android:name=".Activity.DangNhap"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

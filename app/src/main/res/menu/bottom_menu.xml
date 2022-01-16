@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/signle"
+        android:id="@+id/donhang"
         android:title="Đơn hàng"
         app:showAsAction="ifRoom"
         android:icon="@drawable/single_menu"
         android:iconTint="@color/black"/>
     <item
-        android:id="@+id/promotion"
-        android:title="Sản phẩm"
+        android:id="@+id/khuyenmai"
+        android:title="Khuyến mãi"
         app:showAsAction="ifRoom"
         android:icon="@drawable/promotion" />
     <item
@@ -18,12 +18,12 @@
         app:showAsAction="ifRoom"
         android:enabled="false"/>
     <item
-        android:id="@+id/notification"
+        android:id="@+id/thongbao"
         android:title="Thông báo"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_notifications" />
     <item
-        android:id="@+id/accout"
+        android:id="@+id/taikhoan"
         android:title="Tài khoản"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_account" />

@@ -13,11 +13,14 @@ import androidx.navigation.ActivityNavigator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
@@ -57,6 +60,7 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
 
 
     BottomNavigationView bottomNavigationView;
+    ImageButton giohang;
 
 
     @Override
@@ -68,7 +72,8 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setBackground(null);
 
-
+        NavigationView navigationView = findViewById(R.id.navigation_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         rcvCategory = findViewById(R.id.rcv_category);
         categoryAdapter = new CategoryAdapter(this);
@@ -83,7 +88,7 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
         setSupportActionBar(toolbar);
 
         replaceFragment(new HomeFragment());
-
+        navigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,mDrawerLayout,toolbar,
@@ -92,8 +97,43 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
         toggle.syncState();
         Anhxa();
         ActionViewFlipper();
+        bottomNavi();
+        giohang();
 
 
+    }
+
+    private void giohang() {
+        giohang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TrangchuActivity.this,MainActivity.class));
+            }
+        });
+    }
+
+    private void bottomNavi() {
+        bottomNavigationView.setSelectedItemId(R.id.bthome);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()){
+                    case R.id.donhang:
+                        startActivity(new Intent(getApplicationContext(),DonHangCXN.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.thongbao:
+                        startActivity(new Intent(getApplicationContext(),DonHangCXN.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                    case R.id.taikhoan:
+                        startActivity(new Intent(getApplicationContext(),CapnhatActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                }
+                return false;
+            }
+        });
     }
 
     private List<Category> getListCategory() {
@@ -130,6 +170,8 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
     private void Anhxa() {
 
         viewFlipper = (ViewFlipper) findViewById(R.id.viewflip);
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        giohang = findViewById(R.id.giohang);
 
     }
 
