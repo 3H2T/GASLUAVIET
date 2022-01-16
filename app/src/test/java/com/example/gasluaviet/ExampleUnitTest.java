@@ -1,4 +1,4 @@
-package com.example.gas247;
+package com.example.gasluaviet;
 
 import org.junit.Test;
 

@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">GAS247</string>
+    <string name="app_name"></string>
+    <string name="text">porewed by gasluaviet.com 2021-2022</string>
+    <string name="nav_sanpham">Sản phẩm</string>
+    <string name="nav_binh">Bình gas</string>
+    <string name="nav_bep">Bếp gas</string>
+    <string name="nav_phukien">Phụ kiện</string>
+    <string name="nav_trangchu">Trang chủ</string>
+    <string name="nav_donhang">Đơn hàng</string>
+    <string name="nav_khuyenmai">Khuyến mãi</string>
+    <string name="nav_thongbao">Thông báo</string>
+    <string name="nav_taikhoan">Tài khoản</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="vanban">
+        Bình gas 13kg được sản xuất và phân phối bởi thương hiệu gas nổi tiếng Gas Petrolimex. <br />
+        Chính nhờ vào chất lượng sản phẩm cùng với mức giá cả hợp lý đã giúp Petrolimex trở thành một trong những thương hiệu được mọi người yêu mến, tin tưởng sử dụng. Ngoài ra, tất cả các sản phẩm này đều được kiểm tra, kiểm định chất lượng trước khi đến tay người tiêu dùng, đảm bảo mang đến những sản phẩm chất lượng tốt nhất, đảm bảo an toàn cho người sử dụng.
+        Thông tin Bình gas Petrolimex 13kg:<br />
+        Thương hiệu: Gas Petrolimex<br />
+        Màu sắc: Màu xanh<br />
+        Trọng lượng gas: 13kg<br />
+        Trọng lượng vỏ bình: Từ 12 – 14kg tùy từng vỏ<br />
+        Lửa xanh tiết kiệm gas cho người dùng<br />
+        Bình gas luôn được kiểm định chất lượng trước khi đến tay người tiêu dùng
+        Có tem chống hàng giả
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

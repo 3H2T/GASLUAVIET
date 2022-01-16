@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.gasluaviet.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_danhmucbepActivity"
+            app:destination="@id/danhmucbepActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/saleFragment"
+        android:name="com.example.gasluaviet.fragment.SaleFragment"
+        android:label="SaleFragment" />
+    <activity
+        android:id="@+id/danhmucbepActivity"
+        android:name="com.example.gasluaviet.Activity.DanhmucbepActivity"
+        android:label="activity_danhmucbep"
+        tools:layout="@layout/activity_danhmucbep" />
+</navigation>
