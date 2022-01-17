@@ -1,6 +1,4 @@
-package com.example.gasluaviet.ultil;
-
-import com.example.gasluaviet.ultil.Gasban;
+package com.example.gasluaviet.model;
 
 import java.util.List;
 

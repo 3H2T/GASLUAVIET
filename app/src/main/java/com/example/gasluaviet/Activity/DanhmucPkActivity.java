@@ -11,11 +11,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.gasluaviet.Adapter.GasAdapter;
 import com.example.gasluaviet.Adapter.MyAdapter;
 import com.example.gasluaviet.R;
-import com.example.gasluaviet.ultil.BanHang;
-import com.example.gasluaviet.ultil.Gas;
+import com.example.gasluaviet.model.BanHang;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;

@@ -9,30 +9,30 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.ActivityNavigator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.ClipData;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
 import com.example.gasluaviet.Adapter.CategoryAdapter;
-import com.example.gasluaviet.Adapter.MyAdapter;
-import com.example.gasluaviet.ultil.BanHang;
 import com.example.gasluaviet.R;
 import com.example.gasluaviet.fragment.AccoutFragment;
 import com.example.gasluaviet.fragment.HomeFragment;
 import com.example.gasluaviet.fragment.NotificationFragment;
 import com.example.gasluaviet.fragment.OrderFragment;
 import com.example.gasluaviet.fragment.SaleFragment;
-import com.example.gasluaviet.ultil.Category;
-import com.example.gasluaviet.ultil.Gas;
-import com.example.gasluaviet.ultil.Gasban;
+import com.example.gasluaviet.model.Category;
+import com.example.gasluaviet.model.Gasban;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
@@ -47,6 +47,9 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
     private RecyclerView rcvCategory;
     private CategoryAdapter categoryAdapter;
     ViewFlipper viewFlipper;
+    ImageButton carts;
+    MenuItem single;
+
     private static final int FRAGMENT_HOME = 0;
     private static final int FRAGMENT_ORDER = 1;
     private static final int FRAGMENT_SALE = 2;
@@ -67,11 +70,21 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
         mDrawerLayout = findViewById(R.id.drawerLayout);
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setBackground(null);
+        carts = (ImageButton)findViewById(R.id.giohang);
+        carts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TrangchuActivity.this , CartActivity.class);
+                startActivity(intent);
+            }
+        });
 
-
+        NavigationView navigationView = findViewById(R.id.navigation_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         rcvCategory = findViewById(R.id.rcv_category);
         categoryAdapter = new CategoryAdapter(this);
+
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL,false);
         rcvCategory.setLayoutManager(linearLayoutManager);
@@ -83,7 +96,7 @@ public class TrangchuActivity extends AppCompatActivity implements NavigationVie
         setSupportActionBar(toolbar);
 
         replaceFragment(new HomeFragment());
-
+        navigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,mDrawerLayout,toolbar,

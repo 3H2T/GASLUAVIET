@@ -13,7 +13,7 @@ import android.widget.Button;
 
 import com.example.gasluaviet.Adapter.GasAdapter;
 import com.example.gasluaviet.R;
-import com.example.gasluaviet.ultil.Gas;
+import com.example.gasluaviet.model.Gas;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;

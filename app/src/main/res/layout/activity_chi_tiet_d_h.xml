@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ChiTietDHActivity">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/domau"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logogas247"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Gas lửa Việt"
+                            android:textColor="@color/red"
+                            android:textSize="30sp"
+                            android:paddingTop="15dp"
+                            android:paddingLeft="20dp"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/call"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="0123456789"
+                            android:textColor="@color/black"
+                            android:paddingTop="5dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:layout_width="220dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/botron"
+                            android:drawableEnd="@drawable/ic_baseline_search_24"
+                            android:paddingRight="10dp"/>
+                        <ImageButton
+                            android:id="@+id/imgbtGH"
+                            android:layout_width="55dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icongiohang"
+                            android:layout_marginLeft="40dp"
+                            android:scaleType="fitCenter"
+                            android:adjustViewBounds="true"
+                            android:background="@null"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@color/xam">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đơn hàng"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btcxn4"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:text="Chờ xác nhận"
+                        android:textSize="9sp"
+                        android:background="@drawable/botron"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:id="@+id/btdth4"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:text="Đang thực hiện"
+                        android:textSize="9sp"
+                        android:background="@drawable/botron"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:id="@+id/btdht4"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:text="Đã hoàn thành"
+                        android:textSize="10sp"
+                        android:background="@drawable/botron"
+                        android:textColor="@color/purple_700"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"/>
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="415dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bongmo"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Petro VietNam"
+                        android:textSize="17sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/gashong" />
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mã đơn : 27C121"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/black"/>
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="75dp"
+                                android:layout_marginLeft="20dp"
+                                android:text="@string/soluong" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="450,000đ"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/red"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="320dp"
+                        android:layout_height="1dp"
+                        android:background="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thongtin"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:layout_anchor="@+id/drawerLayout"
+        app:layout_anchorGravity="bottom"
+        android:fadeScrollbars="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/transparent"
+            app:itemIconTint="@color/bottom_item_back"
+            app:itemTextColor="@color/bottom_item_back"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_home"
+        app:layout_anchor="@id/bottomAppbar"
+        app:maxImageSize="40dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

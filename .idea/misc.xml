@@ -3,24 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_chitiet_sp.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_danhmuc_pk.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_danhmucbep.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_danhmucbinh.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_gioithieu.xml" value="0.12704918032786885" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_main.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/activity_trangchu.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/fragment_account.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/fragment_blank.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/fragment_order.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/fragment_sale.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/item_category.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/layout/item_gas.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/menu/bottom_menu.xml" value="0.16824324324324325" />
-        <entry key="..\:/LapTrinhDiDong/Gas247/GasViet/app/src/main/res/menu/menu_nav.xml" value="0.16824324324324325" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_chi_tiet_d_h.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_chitiet_sp.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_d_n_thanh_cong.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_dang_ky.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_dang_nhap.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_danhmucbinh.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_quen_m_k1.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_quen_m_k2.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_quen_m_k3.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_quen_m_k4.xml" value="0.16486486486486487" />
+        <entry key="..\:/GasViet/app/src/main/res/layout/activity_trangchu.xml" value="0.10245901639344263" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable-v24/bodonhang.xml" value="0.10337837837837838" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable-v24/bongmo.xml" value="0.17871621621621622" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable-v24/border.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable-v24/custom_back.xml" value="0.16153846153846155" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable-v24/domau.xml" value="0.10337837837837838" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/bodangnhap.xml" value="0.17871621621621622" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/boder.xml" value="0.16153846153846155" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/color_header.xml" value="0.17871621621621622" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_back.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_background_oval_gradient.xml" value="0.13333333333333333" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_button_color.xml" value="0.16153846153846155" />
@@ -28,14 +29,34 @@
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_dm.xml" value="0.13333333333333333" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_nen.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/custom_search.xml" value="0.16153846153846155" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/ic_home.xml" value="0.16153846153846155" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/rounded_button.xml" value="0.17871621621621622" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/drawable/shadow.xml" value="0.17871621621621622" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_capnhat_taikhoan.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_cart.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_chi_tiet_d_h.xml" value="0.16824324324324325" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_chitiet_sp.xml" value="0.16" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_d_n_thanh_cong.xml" value="0.152" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_dang_ky.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_danhmuc_pk.xml" value="0.1444672131147541" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_danhmucbep.xml" value="0.1489071038251366" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_danhmucbinh.xml" value="0.16799999999999998" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_don_hang_d_h_t.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_don_hang_d_t_h.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_donhang_c_x_n.xml" value="0.16824324324324325" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_gioithieu.xml" value="0.128" />
-        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_menu_nav.xml" value="0.1" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_pay.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_purchase.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_quen_m_k1.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_quen_m_k2.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_quen_m_k3.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_quen_m_k4.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_thanhtoan_momo.xml" value="0.16824324324324325" />
+        <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_thanhtoan_momotk.xml" value="0.16824324324324325" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/activity_trangchu.xml" value="0.16799999999999998" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/fragment_account.xml" value="0.1" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/layout/fragment_home.xml" value="0.144" />
@@ -51,6 +72,14 @@
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/menu/bottom_menu.xml" value="0.1527027027027027" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/menu/menu_nav.xml" value="0.128" />
         <entry key="..\:/LapTrinhDiDong/GasViet/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16153846153846155" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_cart.xml" value="0.16" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_d_n_thanh_cong.xml" value="0.1" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_gioithieu.xml" value="0.152" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_purchase.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/activity_trangchu.xml" value="0.1" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/layout/row.xml" value="0.1" />
+        <entry key="..\:/Users/lengo/Downloads/GasViet/GasViet/app/src/main/res/menu/bottom_menu.xml" value="0.1388888888888889" />
       </map>
     </option>
   </component>

@@ -1,4 +1,4 @@
-package com.example.gasluaviet.ultil;
+package com.example.gasluaviet.model;
 
 public class Gas {
 

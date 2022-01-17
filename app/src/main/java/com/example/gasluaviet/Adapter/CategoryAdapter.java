@@ -11,8 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gasluaviet.R;
-import com.example.gasluaviet.ultil.Category;
-import com.example.gasluaviet.ultil.Gasban;
+import com.example.gasluaviet.model.Category;
 
 import java.util.List;
 

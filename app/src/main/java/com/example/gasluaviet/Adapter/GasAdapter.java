@@ -1,6 +1,5 @@
 package com.example.gasluaviet.Adapter;
 
-import android.nfc.TagLostException;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gasluaviet.R;
-import com.example.gasluaviet.ultil.Gas;
+import com.example.gasluaviet.model.Gas;
 
 import java.util.List;
 

@@ -10,8 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gasluaviet.R;
-import com.example.gasluaviet.ultil.BanHang;
-import com.example.gasluaviet.ultil.Gas;
+import com.example.gasluaviet.model.BanHang;
 
 import java.util.List;
 

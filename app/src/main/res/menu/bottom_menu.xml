@@ -9,7 +9,7 @@
         android:iconTint="@color/black"/>
     <item
         android:id="@+id/promotion"
-        android:title="Sản phẩm"
+        android:title="Khuyến mãi"
         app:showAsAction="ifRoom"
         android:icon="@drawable/promotion" />
     <item
